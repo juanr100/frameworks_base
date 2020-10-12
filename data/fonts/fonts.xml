@@ -84,9 +84,9 @@
         <font weight="750" style="italic">GoogleSans-BoldItalic.ttf</font>
     </family>
 
-    <alias name="googlesans-medium" to="googlesans" weight="550" />
-    <alias name="googlesans-semi-bold" to="googlesans" weight="650" />
-    <alias name="googlesans-bold" to="googlesans" weight="750" />
+    <alias name="GoogleSans-Medium" to="googlesans" weight="550" />
+    <alias name="GoogleSans-BoldItalic" to="googlesans" weight="650" />
+    <alias name="GoogleSans-Bold" to="googlesans" weight="750" />
     <alias name="times" to="googlesans" />
     <alias name="times new roman" to="googlesans" />
     <alias name="palatino" to="googlesans" />
