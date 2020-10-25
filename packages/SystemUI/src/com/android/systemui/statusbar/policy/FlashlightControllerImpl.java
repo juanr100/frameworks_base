@@ -89,6 +89,12 @@ public class FlashlightControllerImpl implements FlashlightController {
             mCameraManager.registerTorchCallback(mTorchCallback, mHandler);
         }
     }
+    
+    public synchronized void initFlashLight() {
+        if (mCameraId == null) {
+            tryInitCamera();
+        }
+    }
 
     public void setFlashlight(boolean enabled) {
         boolean pendingError = false;
