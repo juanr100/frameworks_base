@@ -31,7 +31,10 @@ LOCAL_REQUIRED_MODULES := \
         DisplayCutoutEmulationHoleOverlay \
 	DisplayCutoutEmulationTallOverlay \
 	DisplayCutoutEmulationWaterfallOverlay \
+	FontLatoSourceOverlay \
+	FontRubikSourceOverlay \
 	FontNotoSerifSourceOverlay \
+	FontSonySourceOverlay \
 	IconPackCircularAndroidOverlay \
 	IconPackCircularLauncherOverlay \
 	IconPackCircularSettingsOverlay \
