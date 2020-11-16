@@ -4363,8 +4363,4 @@
     <bool name="config_pdp_reject_enable_retry">false</bool>
     <!-- pdp data reject retry delay in ms -->
     <integer name="config_pdp_reject_retry_delay_ms">-1</integer>
-    
-    <!-- Time to give to the proximity sensor before toggling the flashlight with the Power button.
-       Set to -1 to disable the proximity sensor check at all-->
-    <integer name="config_flashlightProximityTimeout">300</integer>
 </resources>

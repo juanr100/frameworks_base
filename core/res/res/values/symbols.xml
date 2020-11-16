@@ -4048,7 +4048,4 @@
   <java-symbol type="string" name="config_pdp_reject_multi_conn_to_same_pdn_not_allowed" />
 
   <java-symbol type="array" name="config_notificationMsgPkgsAllowedAsConvos" />
-  
-  <!-- Flashlight proximity check -->
-  <java-symbol type="integer" name="config_flashlightProximityTimeout" />
 </resources>
