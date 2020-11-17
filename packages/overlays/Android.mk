@@ -35,6 +35,7 @@ LOCAL_REQUIRED_MODULES := \
 	FontLatoSourceOverlay \
 	FontRubikSourceOverlay \
 	FontNotoSerifSourceOverlay \
+	FontSamsungOneSourceOverlay \
 	IconPackCircularAndroidOverlay \
 	IconPackCircularLauncherOverlay \
 	IconPackCircularSettingsOverlay \
