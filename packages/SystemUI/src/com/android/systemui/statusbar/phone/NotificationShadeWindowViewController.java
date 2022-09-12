@@ -165,7 +165,7 @@ public class NotificationShadeWindowViewController {
                     break;
                 case Settings.Secure.DOUBLE_TAP_TO_WAKE:
                     mDoubleTapEnabledNative = Settings.Secure.getIntForUser(mView.getContext().getContentResolver(),
-                            Settings.Secure.DOUBLE_TAP_TO_WAKE, 0, UserHandle.USER_CURRENT) == 1;
+                            Settings.Secure.DOUBLE_TAP_TO_WAKE, 1, UserHandle.USER_CURRENT) == 1;
                     break;
             }
         };
