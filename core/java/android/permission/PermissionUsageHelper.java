@@ -108,7 +108,7 @@ public class PermissionUsageHelper implements AppOpsManager.OnOpActiveChangedLis
 
     private static boolean shouldShowPermissionsHub() {
         return DeviceConfig.getBoolean(DeviceConfig.NAMESPACE_PRIVACY,
-                PROPERTY_PERMISSIONS_HUB_2_ENABLED, false);
+                PROPERTY_PERMISSIONS_HUB_2_ENABLED, true);
     }
 
     private static boolean shouldShowIndicators() {
@@ -118,7 +118,7 @@ public class PermissionUsageHelper implements AppOpsManager.OnOpActiveChangedLis
 
     private static boolean shouldShowLocationIndicator() {
         return DeviceConfig.getBoolean(DeviceConfig.NAMESPACE_PRIVACY,
-                PROPERTY_LOCATION_INDICATORS_ENABLED, false);
+                PROPERTY_LOCATION_INDICATORS_ENABLED, true);
     }
 
     private static long getRecentThreshold(Long now) {
