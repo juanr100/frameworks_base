@@ -973,7 +973,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                 mHandler.post(mWindowManagerFuncs::triggerAnimationFailsafe);
                 // See if we deferred screen wake because long press power for torch is enabled
                 if (mResolvedLongPressOnPowerBehavior == LONG_PRESS_POWER_TORCH &&
-                        (!isScreenOn() || isDozeMode())) {
+                        (!isScreenOn())) {
                     wakeUpFromPowerKey(SystemClock.uptimeMillis());
                 }
             }
@@ -1347,7 +1347,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
             return LONG_PRESS_POWER_SHUT_OFF_NO_CONFIRM;
         }
 
-        if (mTorchLongPressPowerEnabled && (!isScreenOn() || isDozeMode() || mTorchEnabled)) {
+        if (mTorchLongPressPowerEnabled && (!isScreenOn() || mTorchEnabled)) {
             return LONG_PRESS_POWER_TORCH;
         }
 
