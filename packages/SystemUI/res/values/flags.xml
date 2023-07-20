@@ -16,12 +16,12 @@
   -->
 
 <resources>
-    <bool name="are_flags_overrideable">false</bool>
+    <bool name="are_flags_overrideable">true</bool>
 
     <bool name="flag_monet">true</bool>
 
     <!-- People Tile flag -->
-    <bool name="flag_conversations">false</bool>
+    <bool name="flag_conversations">true</bool>
 
     <!-- Whether the multi-user icon on the lockscreen opens the QS user detail. If false, clicking
          the multi-user icon will display a list of users directly on the lockscreen. The multi-user
